@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="DeadLock?demora=30">La llamada por GET con seccion critica de 30 milis</a><br>
+<a href="DeadLock?demora=60">La llamada por GET con seccion critica de 60 milis</a><br>
+<a href="DeadLock?demora=120">La llamada por GET con seccion critica de 120 milis</a><br>
+<a href="DeadLock?demora=150">La llamada por GET con seccion critica de 150 milis</a><br>
+<a href="DeadLock?demora=200">La llamada por GET con seccion critica de 200 milis</a><br>
+<a href="DeadLock?demora=300">La llamada por GET con seccion critica de 300 milis</a><br>
+<br>
+<form method="POST" action="DeadLock">
+	<input type="text" name="demora" value="30"/>
+	<input type="submit" value="La llamada por POST"/>
+</form>
+</body>
+</html>
